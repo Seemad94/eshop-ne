@@ -48,3 +48,4 @@ export async function POST(req: NextRequest) {
   }
   return new Response("Auth requred", { status: 401 });
 }
+export async function GET(req: NextRequest) {}
